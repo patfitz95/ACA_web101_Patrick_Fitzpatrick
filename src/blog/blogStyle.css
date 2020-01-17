@@ -1,0 +1,25 @@
+.main-container {
+    border: 1px solid green;
+    height: 100%;
+}
+header {
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    text-align: right;
+}
+nav {
+    padding: 10px;
+    text-align: right;
+    background-color: grey;
+}
+i {
+    float: left;
+}
+a {
+    float: center;
+}
+.ApplyNow {
+    background-color: orange;
+    color: white;
+}
