@@ -1,5 +1,4 @@
 .main-container {
-    border: 1px solid green;
     height: 100%;
 }
 header {
@@ -11,7 +10,7 @@ header {
 nav {
     padding: 10px;
     text-align: right;
-    background-color: grey;
+    background-color: whitesmoke;
 }
 i {
     float: left;
@@ -19,4 +18,52 @@ i {
 .ApplyNow {
     background-color: orange;
     color: white;
+}
+main {
+    text-align: center;
+    background-color: lightslategray;
+    vertical-align: middle;
+    height: 100%;
+}
+section {
+    display: inline-block;
+    background-color: white;
+    box-sizing: content-box;
+    width: 400px;
+    margin-top: 2%;
+    text-align: left;
+}
+.Post1 {
+    border: 0.5px solid grey;
+    box-sizing: border-box;
+}
+.Post2 {
+    border:0.5px solid grey;
+    box-sizing: border-box;
+}
+.Post3 {
+    border:0.5px solid grey;
+    box-sizing: border-box;
+}
+h6 {
+    color: grey
+}
+h5:hover:first-letter {
+    color: red;
+}
+footer {
+    padding: 30px;
+    text-align: middle;
+    background-color: lightgray;
+}
+.footer {
+    text-align: center;
+    background-color: lightgray;
+}
+.footer1 {
+    color: orange;
+}
+#logo {
+    text-align: center;
+    color: orange;
 }
