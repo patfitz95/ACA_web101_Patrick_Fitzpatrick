@@ -1,0 +1,17 @@
+.main-container {
+    height: 100%;
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+header {
+    display: inline-block;
+    border: 1px solid grey;
+}
+.header {
+    font-size: 12px;
+}
+.title {
+    color: black;
+    border-bottom: 4px solid black;
+}
