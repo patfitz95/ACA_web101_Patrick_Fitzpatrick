@@ -17,4 +17,16 @@ header {
 }
 .Summary{
     text-align: center;
+    font-style: italic;
+}
+.textbox {
+    font-family: "Courier New", Courier, monospace;
+}
+.Job {
+    color: blue;
+     
+}
+ul{
+    list-style-type: circle;
+    font-family: "Courier New", Courier, monospace;
 }
