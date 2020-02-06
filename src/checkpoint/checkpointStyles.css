@@ -1,0 +1,100 @@
+main.main-container {
+  background: whitesmoke;
+  border: 10px solid grey;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.greeting {
+  border: 10px solid grey;
+  grid-column: 1/4;
+  grid-row: 1/2;
+  display: grid;
+  text-align: center;
+}
+h3 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.date {
+  border: 10px solid grey;
+  grid-column: 2/4;
+  grid-row: 3/4;
+  display: grid;
+  text-align: center;
+}
+h6 {
+  text-align: center;
+}
+.clock {
+  border: 10px solid grey;
+  grid-column: 3/3;
+  grid-row: 2/3;
+  display: grid;
+}
+.calculator {
+  border: 10px solid grey;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: grid;
+}
+.calculator-buttons {
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 1px;
+}
+.is-clear{
+  grid-column: 1/4;
+  background: blue;
+  color: white;
+}
+.is-zero {
+  grid-column: 1/4;
+}
+.is-equals {
+  background: green;
+  color: white;
+}
+.todolist {
+  border: 10px solid grey;
+  grid-column: 1/2;
+  grid-row: 2/4;
+  display: grid;
+  box-sizing: border-box;
+  text-align: center;
+}
+ul {
+  list-style-type: square;
+  text-align: left;
+}
+li {
+  margin: 1em;
+}
+@media (max-width: 767px) {
+  main.main-container {
+    background: green;
+    width: auto;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    border: 5px grey;
+
+  }
+}
+@media (min-width: 768px) {
+  main.main-container {
+    display: flex;
+    flex-direction: row;
+    background: red;
+    height: 100%;
+  }
+}
+@media (min-width: 992px) {
+  main.main-container {
+    display: grid;
+    background: whitesmoke
+  }
+}
