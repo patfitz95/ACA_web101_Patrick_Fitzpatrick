@@ -16,5 +16,20 @@ header {
     border-bottom: 4px solid black;
 }
 .Summary{
-    text-align: center;
+    text-align: left;
+    font-style: italic;
+}
+.textbox {
+    font-family: "Courier New", Courier, monospace;
+}
+.Job {
+    color: blue;
+    
+}
+h4 {
+    color: grey;
+}
+ul{
+    list-style-type: circle;
+    font-family: "Courier New", Courier, monospace;
 }
