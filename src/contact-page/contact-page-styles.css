@@ -1,0 +1,38 @@
+.main-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-image: url("background.jpg");
+}
+.title {
+  width: 100%;
+  height: fit-content;
+  font-size: 40px;
+  font-family: 'Lobster';
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  animation-name: movedown;
+  animation-duration: 1s;
+}
+@keyframes movedown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.links {
+  border: 1px solid blue;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
