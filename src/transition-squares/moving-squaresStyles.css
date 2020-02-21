@@ -1,0 +1,69 @@
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-container {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.square {
+  height: 50px;
+  width: 50px
+
+}
+.one {
+  border: 1px solid red;
+}
+.two {
+  border: 1px solid green;
+}
+.three {
+  border: 1px solid blue;
+}
+.four {
+  border: 1px solid blueviolet;
+}
+.five {
+  border: 1px solid yellow;
+}
+.six {
+  border: 1px solid black;
+}
+.seven {
+  border: 1px solid pink;
+}
+.eight {
+  border: 1px solid goldenrod;
+}
+.nine {
+  border: 1px solid rgb(15, 235, 224);
+}
+.ten {
+  border: 1px solid rgb(20, 45, 44);
+}
+.eleven {
+  border: 1px solid rgb(red, green, blue);
+}
+.twelve {
+  border: 1px solid purple;
+}
+.square-odd {
+  transform: scale (1) rotate(0deg) translateX(0px);
+  transition: transform 1s ease-in-out;
+}
+.main-container:hover .square-odd {
+  transform: scale(2) rotate(360deg) translateX(100px);
+}
+.square-even {
+  transform: scale (1) rotate(0deg) translateX(0px);
+  transition: transform 1s ease-in-out;
+}
+.main-container:hover .square-even {
+  transform: scale(0.5) rotate(-360deg) translateX(-100px);
+}
