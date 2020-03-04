@@ -1,0 +1,9 @@
+.main-container {
+  height: 100%;
+  width: 100%;
+  background: url(https://static1.squarespace.com/static/56683ecaa2bab88225a87738/t/5beb42ea6d2a730abeb42095/1542144814223/tonycs-179.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
