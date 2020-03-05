@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://static1.squarespace.com/static/56683ecaa2bab88225a87738/t/5beb42ea6d2a730abeb42095/1542144814223/tonycs-179.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://static1.squarespace.com/static/56683ecaa2bab88225a87738/t/570515ab7c65e41309431300/1459951020676/SSBackGround.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -47,20 +47,46 @@ a:hover {
   align-items: center;
 }
 .title img {
-  width: 679.89px;
-  height: 200px;
+  width: 292.59px;
+  height: 86.2px;
+  padding-bottom: 20px;
 }
-h1 {
+.reservations {
+  width: fit-content;
+  height: fit-content;
+  margin-left: -275px;
+}
+.h1 {
   color: white;
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 22px;
-  line-height: .9em;
   text-transform: uppercase;
 }
+h5 {
+  color: white;
+}
+.locations {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: 1;
+}
+.button {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: 1;
+}
+.book {
+  padding: 10px;
+  background-color: red;
+  border: 2px solid red;
+  color: white;
+  border-radius: 5px;
+}
 .footer {
-  padding-top: 40px;
   height: 100px;
   width: 100%;
   list-style-type: none;
