@@ -5,7 +5,8 @@ body {
   width: 500px;
   margin: auto;
   text-align: center;
-}                                           
+} 
+* { cursor: url(normal\ sniper\ crosshair.cur), default;}                                          
 
 p {
   font-size: 20px;
@@ -28,11 +29,6 @@ p {
   height:60px;
 }
 
-table {
-  margin-top: 10px;
-  border: 2px solid;
-  border-radius: 5px;
-}
 
 td {
   border:1px solid;
@@ -59,7 +55,7 @@ td {
   font-size: 30px;
   border:5px solid;
   border-radius:10px;
-  background-color: green;
+  background-color: red;
   width:300px;
   height:50px;    
 }
