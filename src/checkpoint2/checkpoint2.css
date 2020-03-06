@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+.main-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://static1.squarespace.com/static/56683ecaa2bab88225a87738/t/5beb42ea6d2a730abeb42095/1542144814223/tonycs-179.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.header {
+  height: fit-content;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  list-style-type: none;
+  justify-content: space-evenly;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Roboto Mono', monospace;
+}
+a {
+  color: white;
+  opacity: 50%;
+  text-decoration: none;
+}
+a:hover {
+  opacity: 100%;
+}
+.OO {
+  background: red;
+  padding: 7px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home {
+  opacity: 100%;
+}
+.title img {
+  width: 679.89px;
+  height: 200px;
+}
+h1 {
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  line-height: .9em;
+  text-transform: uppercase;
+}
+.footer {
+  padding-top: 40px;
+  height: 100px;
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex:1;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.link {
+  opacity: 100%;
+}
